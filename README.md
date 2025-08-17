@@ -25,7 +25,7 @@ This tool allows developers to paste or upload their code and get **instant AI-g
 
 ## ⚙️ Installation  
 
-### Clone the Repository  
+Clone the Repository  
 ```shell
 git clone https://github.com/priya2001/AI-code-Review
 cd chat-app-react-nodejs
@@ -57,6 +57,7 @@ Open another terminal in folder:
 cd Backend
 npm start
 ```
+
 
 
 
