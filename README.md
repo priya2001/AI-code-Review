@@ -30,44 +30,36 @@ This tool allows developers to paste or upload their code and get **instant AI-g
 git clone https://github.com/priya2001/code-review.git
 cd code-review
 
-```shell
-git clone https://github.com/priya2001/chat-app-react-nodejs
-cd chat-app-react-nodejs
-```
-Now rename env files from .env.example to .env
-```shell
-cd public
-mv .env.example .env
-cd ..
-cd server
-mv .env.example .env
-cd ..
-```
-
 Now install the dependencies
 ```shell
-cd server
+cd Backend 
 yarn
 cd ..
-cd public
+cd Frontend
 yarn
 ```
 We are almost done, Now just start the development server.
 
 For Frontend.
 ```shell
-cd public
+cd Frontend
 yarn start
 ```
 For Backend.
 
 Open another terminal in folder, Also make sure mongodb is running in background.
 ```shell
-cd server
+cd Backend
 yarn start
 ```
 
-Done! Now open localhost:3000 in your browser.
+Create a .env file inside BackEnd:
+```shell
+
+API_KEY=your_google_gemini_api_key
+PORT=5000
+```
+
 
 
 
