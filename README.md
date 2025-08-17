@@ -57,6 +57,8 @@ Open another terminal in folder:
 cd Backend
 npm start
 ```
+Done! 
+Now open localhost:5000 in your browser.
 
 
 
