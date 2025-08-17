@@ -23,6 +23,9 @@ This tool allows developers to paste or upload their code and get **instant AI-g
 
 ---
 
+## Screenshot
+![screenshot](./screenshot/image.png)
+
 ## ⚙️ Installation  
 
 Clone the Repository  
