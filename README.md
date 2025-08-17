@@ -34,11 +34,6 @@ cd code-review
 
 
 
-Now install the dependencies
-```shell
-
-npm i
-```
 Create a .env file inside BackEnd:
 ```shell
 
@@ -59,6 +54,7 @@ Open another terminal in folder:
 cd Backend
 npm start
 ```
+
 
 
 
