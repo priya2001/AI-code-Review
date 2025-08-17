@@ -27,7 +27,8 @@ This tool allows developers to paste or upload their code and get **instant AI-g
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/yourusername/code-review.git
+git clone https://github.com/priya2001/code-review.git
 cd code-review
+
 
 
