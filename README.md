@@ -32,33 +32,32 @@ cd code-review
 
 Now install the dependencies
 ```shell
-cd Backend 
-yarn
-cd ..
-cd Frontend
-yarn
-```
-We are almost done, Now just start the development server.
 
-For Frontend.
-```shell
-cd Frontend
-yarn start
+npm i
 ```
-For Backend.
-
-Open another terminal in folder, Also make sure mongodb is running in background.
-```shell
-cd Backend
-yarn start
-```
-
 Create a .env file inside BackEnd:
 ```shell
 
 API_KEY=your_google_gemini_api_key
 PORT=5000
 ```
+
+
+For Frontend.
+```shell
+cd Frontend
+npm run dev
+```
+For Backend.
+
+Open another terminal in folder:
+```shell
+cd Backend
+npm start
+```
+
+
+
 
 
 
