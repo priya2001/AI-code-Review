@@ -31,8 +31,8 @@ git clone https://github.com/priya2001/code-review.git
 cd code-review
 
 
-2️⃣ Backend Setup
-```bash
-cd BackEnd
+3️⃣ Frontend Setup
+cd FrontEnd
 npm install
+npm start
 
