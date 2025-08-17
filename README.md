@@ -31,4 +31,8 @@ git clone https://github.com/priya2001/code-review.git
 cd code-review
 
 
+2️⃣ Backend Setup
+```bash
+cd BackEnd
+npm install
 
