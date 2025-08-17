@@ -30,9 +30,10 @@ This tool allows developers to paste or upload their code and get **instant AI-g
 git clone https://github.com/priya2001/code-review.git
 cd code-review
 
-
-3️⃣ Frontend Setup
-cd FrontEnd
+2️⃣ Backend Setup
+```shell
+cd BackEnd
 npm install
-npm start
+```
+
 
