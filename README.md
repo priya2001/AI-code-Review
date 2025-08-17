@@ -26,13 +26,16 @@ This tool allows developers to paste or upload their code and get **instant AI-g
 ## ⚙️ Installation  
 
 ### Clone the Repository  
-```bash
-git clone https://github.com/priya2001/code-review.git
-cd code-review
+```shell
+git clone https://github.com/priya2001/AI-code-Review
+cd chat-app-react-nodejs
+```
 
----
+Now install the dependencies
+```shell
 
-
+npm i
+```
 
 Create a .env file inside BackEnd:
 ```shell
@@ -54,6 +57,7 @@ Open another terminal in folder:
 cd Backend
 npm start
 ```
+
 
 
 
