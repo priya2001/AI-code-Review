@@ -30,7 +30,7 @@ This tool allows developers to paste or upload their code and get **instant AI-g
 git clone https://github.com/yourusername/code-review.git
 cd code-review
 2️⃣ Backend Setup
-bash
+```bash
 Copy
 Edit
 cd BackEnd
@@ -44,12 +44,12 @@ API_KEY=your_google_gemini_api_key
 PORT=5000
 Start the server:
 
-bash
+```bash
 Copy
 Edit
 npm start
 3️⃣ Frontend Setup
-bash
+```bash
 Copy
 Edit
 cd FrontEnd
@@ -80,4 +80,5 @@ Make sure to configure .env properly with the Gemini API key.
 📌 Provide detailed complexity analysis.
 
 📌 Suggest automated fixes for common issues.
+
 
