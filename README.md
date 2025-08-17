@@ -25,10 +25,14 @@ This tool allows developers to paste or upload their code and get **instant AI-g
 
 ## ⚙️ Installation  
 
-### 1️⃣ Clone the Repository  
+### Clone the Repository  
 ```bash
 git clone https://github.com/priya2001/code-review.git
 cd code-review
+
+---
+
+
 
 Now install the dependencies
 ```shell
@@ -55,6 +59,7 @@ Open another terminal in folder:
 cd Backend
 npm start
 ```
+
 
 
 
