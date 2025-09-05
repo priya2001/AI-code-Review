@@ -25,6 +25,7 @@ This tool allows developers to paste or upload their code and get **instant AI-g
 
 ## Screenshot
 ![screenshot](./screenshot/image.png)
+![screenshot](./screenshot/loginSignup.png)
 
 ## ⚙️ Installation  
 
@@ -62,6 +63,7 @@ npm start
 ```
 Done! 
 Now open localhost:5000 in your browser.
+
 
 
 
