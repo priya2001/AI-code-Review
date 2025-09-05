@@ -6,12 +6,12 @@ This tool allows developers to paste or upload their code and get **instant AI-g
 ---
 
 ##  Features  
-- 🔐 **Google Sign-In (Optional)** – Secure login for personalized experience.  
-- 🤖 **AI-Powered Code Review** – Uses **Google Gemini API** to analyze code.  
-- ⚡ **Full-Stack Application** – React.js frontend + Node.js/Express backend.  
-- 📡 **RESTful API** – Backend API integrates with Google Gemini securely.  
-- 📱 **Responsive UI** – Clean and user-friendly design with React.  
-- 🔑 **Secure Configuration** – `.env` file for API keys and sensitive credentials.  
+-  **Google Sign-In (Optional)** – Secure login for personalized experience.  
+-  **AI-Powered Code Review** – Uses **Google Gemini API** to analyze code.  
+-  **Full-Stack Application** – React.js frontend + Node.js/Express backend.  
+-  **RESTful API** – Backend API integrates with Google Gemini securely.  
+-  **Responsive UI** – Clean and user-friendly design with React.  
+-  **Secure Configuration** – `.env` file for API keys and sensitive credentials.  
 
 ---
 
@@ -64,6 +64,7 @@ npm start
 ```
 Done! 
 Now open localhost:5000 in your browser.
+
 
 
 
