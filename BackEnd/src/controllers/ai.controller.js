@@ -1,17 +1,22 @@
-const aiService = require("../services/ai.service")
+const generateContent = require("../services/ai.service");
 
-
-module.exports.getReview = async (req, res) => {
-
-    const code = req.body.code;
+async function getReview(req, res) {
+  try {
+    const { code } = req.body;
 
     if (!code) {
-        return res.status(400).send("Prompt is required");
+      return res.status(400).json({ message: "Code is required" });
     }
 
-    const response = await aiService(code);
+    // Gemini ko call karna
+    const review = await generateContent(code);
 
-
-    res.send(response);
-
+    console.log("AI Review:", review);
+    res.json({ review });  // direct review bhejna
+  } catch (err) {
+    console.error("Controller Error:", err);
+    res.status(500).json({ message: "Error reviewing code" });
+  }
 }
+
+module.exports = { getReview };
