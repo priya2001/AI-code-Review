@@ -1,11 +1,11 @@
-# 🤖 AI Code Review Platform  
+#  AI Code Review Platform  
 
 An **AI-powered code review application** built with **React.js, Node.js, Express.js**, and **Google Gemini API**.  
 This tool allows developers to paste or upload their code and get **instant AI-generated reviews, suggestions, and improvements** for better code quality.  
 
 ---
 
-## 🚀 Features  
+##  Features  
 - 🔐 **Google Sign-In (Optional)** – Secure login for personalized experience.  
 - 🤖 **AI-Powered Code Review** – Uses **Google Gemini API** to analyze code.  
 - ⚡ **Full-Stack Application** – React.js frontend + Node.js/Express backend.  
@@ -24,8 +24,9 @@ This tool allows developers to paste or upload their code and get **instant AI-g
 ---
 
 ## Screenshot
-![screenshot](./screenshot/image.png)
 ![screenshot](./screenshot/loginSignup.png)
+![screenshot](./screenshot/image.png)
+
 
 ## ⚙️ Installation  
 
@@ -63,6 +64,7 @@ npm start
 ```
 Done! 
 Now open localhost:5000 in your browser.
+
 
 
 
